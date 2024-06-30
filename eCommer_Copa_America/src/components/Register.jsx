@@ -6,7 +6,9 @@ function Register() {
      };
   return (
     <>
+        <div className='container'>
         <h1>Register</h1>
+
         <form onSubmit={handleSubmit} className='form_register'>
             <label>
                 Name
@@ -23,6 +25,7 @@ function Register() {
             </label>
             <button type="submit" className='button_register'>Register</button>    
         </form>
+        </div>
     </>
   )
 }
