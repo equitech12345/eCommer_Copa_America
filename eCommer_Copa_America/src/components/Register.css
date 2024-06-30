@@ -1,11 +1,11 @@
-.container{
+.container_register {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
-    text-align: center;
     border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
 }
 
 .form_register {

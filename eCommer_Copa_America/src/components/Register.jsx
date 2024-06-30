@@ -6,7 +6,7 @@ function Register() {
      };
   return (
     <>
-        <div className='container'>
+        <div className='register_container'>
         <h1>Register</h1>
 
         <form onSubmit={handleSubmit} className='form_register'>
