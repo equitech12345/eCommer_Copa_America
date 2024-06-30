@@ -1,29 +1,25 @@
 import React from 'react'
 import './Home.css'
-import Items from './Items';
-
-
+import {items} from '../Data/products'
 
 function Home() {
-  const countries = ['Argentina', 'Brasil', 'Chile', 'México', 'Perú'];
     
-  const handleSelectCountry = (country) => {
-    alert(`Seleccionaste ${country}`);
+  const handleSelectItems = (product) => {
+    console.log('Selected country:', product);
   };
   return (
     <div>
-    <h2>Selecciona un país:</h2>
+    <h2>Lista de Productos</h2>
     <ul>
-      {countries.map((country) => (
+      {items.map((item) => (
         <p className='p_country'
-          key={country}
-          onClick={() => handleSelectCountry(country)}
+          key={item.Id}
+          onClick={() => handleSelectItems(item.Name)}
         >
-          {country}
+          {item.Name}
         </p>
       ))}
     </ul>
-    <Items />
   </div>
 );
 };

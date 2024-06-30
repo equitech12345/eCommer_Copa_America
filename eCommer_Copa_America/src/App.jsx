@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <header>
-      <h1>eCommer Copa Ameria</h1>
+      <h1>eCommer Copa America</h1>
       <p>Bienvenido al eComer de la Selección Argentina</p>
     
     <nav>
