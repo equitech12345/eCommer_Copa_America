@@ -5,7 +5,7 @@ import {items} from '../Data/products'
 function Home() {
     
   const handleSelectItems = (product) => {
-    console.log('Selected country:', product);
+    alert(product);
   };
   return (
     <div>
