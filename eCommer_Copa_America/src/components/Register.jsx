@@ -5,10 +5,8 @@ function Register() {
     const handleSubmit = (e) => {
      };
   return (
-    <>
         <div className='register_container'>
         <h1>Register</h1>
-
         <form onSubmit={handleSubmit} className='form_register'>
             <label>
                 Name
@@ -26,7 +24,7 @@ function Register() {
             <button type="submit" className='button_register'>Register</button>    
         </form>
         </div>
-    </>
+
   )
 }
 
