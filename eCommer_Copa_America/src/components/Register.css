@@ -1,0 +1,21 @@
+.form_register {
+    display: inline;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.form_register input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.button_register {
+    width: 50%;
+    background-color: #ccc;
+}
