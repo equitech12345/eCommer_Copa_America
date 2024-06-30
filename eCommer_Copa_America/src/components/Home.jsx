@@ -1,13 +1,14 @@
 import React from 'react'
-import { useState } from 'react';
 import './Home.css'
+import Items from './Items';
+
 
 
 function Home() {
   const countries = ['Argentina', 'Brasil', 'Chile', 'México', 'Perú'];
     
   const handleSelectCountry = (country) => {
-    alert('Seleccionaste ' + country);
+    alert(`Seleccionaste ${country}`);
   };
   return (
     <div>
@@ -22,6 +23,7 @@ function Home() {
         </p>
       ))}
     </ul>
+    <Items />
   </div>
 );
 };
