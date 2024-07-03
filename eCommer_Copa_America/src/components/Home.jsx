@@ -12,7 +12,7 @@ function Home() {
     <h2>Lista de Productos</h2>
     <ul>
       {items.map((item) => (
-        <p className='p_country'
+        <p className='p_item'
           key={item.Id}
           onClick={() => handleSelectItems(item.Name)}
         >
