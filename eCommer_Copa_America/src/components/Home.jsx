@@ -8,7 +8,7 @@ function Home() {
     alert(product);
   };
   return (
-    <div>
+    <div className='home_container'>
     <h2>Lista de Productos</h2>
     <ul>
       {items.map((item) => (

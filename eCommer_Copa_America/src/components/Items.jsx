@@ -5,8 +5,8 @@ import './Items.css'
 function Items() {
   return (
         <>
-        <h1>Selecciones el producto que desea comprar</h1>
-        <div className='container'>
+        <h3>Productos Selección Argentina</h3>
+        <div className='items_container'>
           {items.map((item) => (
             <div className='card' key={item.Id}>
               <img src={item.Photo} alt={item.Photo} />
