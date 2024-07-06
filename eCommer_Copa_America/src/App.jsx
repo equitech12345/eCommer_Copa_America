@@ -5,8 +5,8 @@ function App() {
 
   return (
     <>
-    <header>
-      <h1>eCommer Copa America</h1>
+    <header className='header'>
+      <h1 className='header_title'>eCommer Copa America</h1>
       <p>Bienvenido al eComer de la Selección Argentina</p>
     
     <nav className='navbar'>
