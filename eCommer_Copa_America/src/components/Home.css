@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: left;
   align-items: center;
+  background-color: #f9f9f9;
+  color: black;
 }
 
 .p_item {
@@ -12,4 +14,5 @@
   flex-wrap: wrap;
   margin-top: 20px;
   cursor: pointer;
+  color: rgb(72, 82, 83);
 }
