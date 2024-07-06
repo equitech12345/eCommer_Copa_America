@@ -1,11 +1,10 @@
 .register_container {
     display: block;
     justify-content: center;
-    width: 120%;
+    width: 100%;
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-    margin: 10px;
     font-size: medium;
     background-color: #f9f9f9;
     color: black;
@@ -19,7 +18,7 @@
 .form_register {
     display: block;
     width: 100%;
-    max-width: 330px;
+    max-width: 340px;
     padding: 15px;
 }
 
